@@ -82,8 +82,19 @@ To run this project locally:
 ---
 
 ## 📂 Project Structure
-NitgyanamLibrary/ ├── app/ # Screens & Navigation (Expo Router) │ ├── admin/ # Admin routes (Dashboard, Queue, etc.) │ ├── student/ # Student routes (Home, Profile, etc.) │ └── auth/ # Login & Signup screens ├── assets/ # Images and Fonts ├── components/ # Reusable UI (Cards, Headers, Buttons) ├── constants/ # App Colors, Styles, Global Variables ├── hooks/ # Custom React Hooks ├── types/ # TypeScript Definitions ├── firebaseConfig.ts # Firebase Connection Logic └── README.md # Documentation
-
+NitgyanamLibrary/
+├── app/                  # Screens & Navigation (Expo Router)
+│   ├── admin/            # Admin routes (Dashboard, Queue, etc.)
+│   ├── student/          # Student routes (Home, Profile, etc.)
+│   └── auth/             # Login & Signup screens
+├── assets/               # App Images (Logo, Splash, Backgrounds)
+├── components/           # Reusable UI (Cards, Headers, Buttons)
+├── constants/            # App Colors, Styles, Global Variables
+├── hooks/                # Custom React Hooks
+├── screenshots/          # README Documentation Images 📸
+├── types/                # TypeScript Definitions
+├── firebaseConfig.ts     # Firebase Connection Logic
+└── README.md             # Documentation
 ---
 
 ## 👨‍💻 Developer Info
